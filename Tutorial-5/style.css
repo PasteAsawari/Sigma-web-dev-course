@@ -1,0 +1,21 @@
+img{
+    height: 230px;
+    width:auto;
+}
+table,th,td{
+    border:2px solid  black;
+}
+ul.default-bullet{
+    list-style-type:disc;
+}
+ul.square-type{
+    list-style-type:square;
+}
+ul.greek-type{
+    list-style-type:circle;
+}
+
+.highlight
+{
+    text-decoration:underline;
+}
