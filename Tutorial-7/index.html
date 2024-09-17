@@ -37,7 +37,6 @@
             </div>
 
             <!-- container for address -->
-
             <div class="input_container">
                 <div class="label_div">
                     <label for="address">Enter Address</label>
@@ -47,6 +46,7 @@
                 </div>
             </div>
 
+            <!-- container for Games -->
             <div class="input_container">
                 <div class="label_div">
                     <label>Select Game(s)</label>
@@ -79,21 +79,64 @@
 
             </div>
 
+            <!-- container for Gender -->
+            <div class="input_container">
+                <div class="label_div">
+                    <label>Gender</label>
+                </div>
+                <div class="input_div">
+                    <input type="radio" id="female" value="Female" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="male" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" value="Other" id="other" name="gender">
+                    <label for="other">Other</label>
+                </div>
+            </div>
 
-            <div>
-                <label>Gender: </label>
-                <input type="radio" id="female" value="Female" name="gender">
-                <label for="female">Female</label>
-                <input type="radio" name="gender" id="male" value="Male">
-                <label for="male">Male</label>
-                <input type="radio" value="Other" id="other" name="gender">
-                <label for="other">Other</label>
+            <!-- container for Age -->
+            <div class="input_container">
+                <div class="label_div">
+                    <label for="dob">Date of birth</label>
+                </div>
+                <div class="input_div">
+                    <input type="date" name="dob" id="dob" value="dob">
+                </div>
             </div>
 
 
+            <!-- container for photo -->
+            <div class="input_container">
+                <div class="label_div">
+                    <label for="photo">Upload Photo</label>
+                </div>
+                <div class="input_div">
+                    <input type="file" name="photo" id="photo">
+                </div>
+            </div>
+
+            <!-- container for shift -->
+            <div class="input_container">
+                <div class="label_div">
+                    <label for="shift">Preferred Batch</label>
+                </div>
+                <div class="input_div">
+                    <select name="select" id="shift">
+                        <option value="morning">Morning</option>
+                        <option value="afternoon">Aftrenoon</option>
+                        <option value="evening">Evening</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- container for buttons -->
+             <div class="button_container">
+                <input class="click_me" type="button" value="Click Me">
+                <input type="reset" value="Reset" class="reset">
+                <input type="button" value="Submit Form" class="reset">
+             </div>
+
         </div>
-
-
     </form>
 </body>
 
