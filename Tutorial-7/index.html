@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="post">
+        <div class="main_div">
+
+            <div style="background-color: lemonchiffon; border:1px solid black; margin-bottom: 5px;">
+                <h1 class="font-decoration">Registration Form</h1>
+            </div>
+
+            <!-- container for name -->
+            <div class="input_container">
+                <div class="label_div">
+                    <label for="username">Enter Name</label>
+                </div>
+                <div class="input_div">
+                    <input type="text" id="username" name="username" autofocus required>
+                </div>
+            </div>
+
+            <!-- container for password -->
+            <div class="input_container">
+                <div class="label_div">
+                    <label for="password">Enter Password</label>
+                </div>
+                <div class="input_div">
+                    <input type="password" id="password" name="password" autofocus required>
+                </div>
+            </div>
+
+            <!-- container for address -->
+
+            <div class="input_container">
+                <div class="label_div">
+                    <label for="address">Enter Address</label>
+                </div>
+                <div class="input_div">
+                    <textarea name="address" id="address" rows="4" cols="40" autofocus required></textarea>
+                </div>
+            </div>
+
+            <div class="input_container">
+                <div class="label_div">
+                    <label>Select Game(s)</label>
+                </div>
+                <div class="input_div">
+                    <input type="checkbox" name="hockey" id="hockey" value="hockey">
+                    <label for="hockey">Hockey</label>
+
+                    <br>
+
+                    <input type="checkbox" name="football" id="football" value="football">
+                    <label for="football">Football</label>
+
+                    <br>
+                    <input type="checkbox" name="badminton" id="badminton" value="badminton">
+                    <label for="badminton">Badminton</label>
+
+                    <br>
+                    <input type="checkbox" name="tennis" id="tennis" value="tennis">
+                    <label for="tennis">Tennis</label>
+
+                    <br>
+                    <input type="checkbox" name="cricket" id="cricket" value="cricket">
+                    <label for="cricket">Cricket</label>
+
+                    <br>
+                    <input type="checkbox" name="vollyball" id="vollyball" value="vollyball">
+                    <label for="vollyball">Vollyball</label>
+                </div>
+
+            </div>
+
+
+            <div>
+                <label>Gender: </label>
+                <input type="radio" id="female" value="Female" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" value="Other" id="other" name="gender">
+                <label for="other">Other</label>
+            </div>
+
+
+        </div>
+
+
+    </form>
+</body>
+
+</html>
