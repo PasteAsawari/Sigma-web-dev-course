@@ -1,0 +1,57 @@
+<!-- without using <br> tag, write a vertically aligned form asking for name,city -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <form action="post">
+        <div class="main_div">
+            <div class="h1_div">
+                <h2 style="text-align: center;">Form</h1>
+            </div>
+
+            <!-- container for name -->
+            <div class="input_container">
+                <div class="label_div">
+                    <label for="name">Enter Name</label>
+                </div>
+                <div class="input_div">
+                    <input type="text" id="name" name="name" required>
+                </div>
+            </div>
+
+            <!-- container for city -->
+            <div class="input_container">
+                <div class="label_div">
+                    <label for="city">Select City</label>
+                </div>
+                <div class="input_div">
+                    <select name="city" id="city" required>
+                        <option value="select city">Select your city</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Jaipur">Jaipur</option>
+                        <option value="Shimla">Shimla</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- container for buttons -->
+            <div class="buttons-container">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </div> 
+        </div>
+    </form>
+
+</body>
+
+</html>
