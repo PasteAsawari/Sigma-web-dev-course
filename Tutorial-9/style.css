@@ -1,0 +1,22 @@
+.pink{
+   color:pink
+}
+.bg_color{
+    background-color: black;
+}
+/* This is a class. Since it is targeted using . */
+
+/* "This is an id. Since it is targeted using #, it must be unique." */
+
+#first_div{
+    height: 50px;
+    font-size: large;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#first_span{
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
